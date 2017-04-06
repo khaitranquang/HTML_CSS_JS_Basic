@@ -1,0 +1,14 @@
+.img {
+    /*margin-left:2%;*/
+    float: left;    /* Floating: troi noi cac thanh phan */
+}
+
+.container {
+    width:50%;
+    height:auto;
+    padding:1%;     /* Can le kieu thut dau dong */
+}
+
+.doan2 {
+    clear: both;    /* Clear floating */
+}

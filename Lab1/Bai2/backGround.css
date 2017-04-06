@@ -1,0 +1,6 @@
+#body {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -moz-background-image: none;
+}
