@@ -1,0 +1,24 @@
+body {
+    background: #fff;
+    /*color: 333;*/
+}
+
+#menu1{
+    width: 160px;
+}
+
+#menu2{
+    width: 160px;
+}
+
+.container{
+    padding: 2%;
+}
+
+.imgGhoul{
+    float: right;
+}
+
+.doanSau {
+    clear: both;
+}
