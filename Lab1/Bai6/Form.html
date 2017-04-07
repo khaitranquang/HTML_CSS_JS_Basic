@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo HTML Form</title>
+</head>
+
+<body>
+<table> <caption> <font size="5"><b> ĐĂNG KÍ THÀNH VIÊN </b></font></caption>
+    <tr> <td colspan="2"> <font size="4"> THÔNG TIN TÀI KHOẢN </font></td></tr>
+        <tr> <td> Username: </td> <td> <input type="text"> </td></tr>
+        <tr> <td> Passưord: </td> <td> <input type="text"> </td></tr>
+        <tr> <td> Nhập lại password: </td> <td> <input type="text"> </td></tr>
+
+        <tr> <td colspan="2"> <font size="4"> THÔNG TIN CÁ NHÂN </font> </td>
+        <tr> <td> Họ và tên: </td> <td> <input type="text"> </td></tr>
+        <tr>
+            <td> Giới tính: </td>
+            <td> <select size="1">
+                <option value="Nam" selected> Nam </option>
+                <option value="Nữ"> Nữ </option>
+            </select></td>
+        </tr>
+        <tr>
+            <td> Địa chỉ </td>
+            <td> <textarea rows="3"  wrap></textarea></td>
+        </tr>
+        <tr> <td> Ngày sinh: </td> <td> <input type="text" value="dd/mm/yyyy"></td></tr>
+        <tr> <td> Email: </td> <td> <input type="text"></td></tr>
+        <tr>
+            <td rowspan="2"> Tình trạng hôn nhân</td>
+            <td> <input type="radio" value="Độc thân"> Độc thân </td>
+        </tr>
+        <tr> <td> <input type="radio" value="Hôn nhân"> Hôn nhân </td></tr>
+
+        <tr>
+            <td align="right"> <input type="submit" value="Gửi đi"></td>
+            <td> <input type="reset" value="Nhập lại"></td>
+        </tr>
+    </table>
+</body>
+</html>
