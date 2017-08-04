@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form - Sign up</title>
+</head>
+<body>
+    <form action="abc.php" method="post" style="width: 500px; height: auto; margin: 10px auto; background: #b7fffc;
+          border-radius: 10px; padding: 5px; padding-left: 30px; padding-right: 30px">
+
+        <!--Title-->
+        <h1 style="text-align: center">Sign Up</h1>
+
+        <!-- Phan 1 -->
+        <span style="display: inline-block; background: #64f540; border-radius: 100%; font-size: 20px;
+              color: white; padding: 8px 15px 8px 14px; margin-bottom: 16px; font-weight: bold">1</span>
+        <span style="font-size: 20px; font-weight: bold">Your Basic Infor</span> <br>
+
+        <span><b>Name:</b></span> <br>
+        <input type="text" name="username" placeholder="Input your username"
+               style="margin-bottom: 16px; margin-top: 12px; padding-left: 5px; padding-top: 8px; padding-bottom: 8px;
+                      width: 100%"> <br>
+
+        <span><b>Email:</b></span> <br>
+        <input type="text" name="email" placeholder="Input your email"
+               style="margin-bottom: 16px; margin-top: 12px; padding-left: 5px; padding-top: 8px; padding-bottom: 8px;
+                      width: 100%"> <br>
+
+        <span><b>Password:</b></span> <br>
+        <input type="password" name="password" placeholder="Input your password"
+               style="margin-bottom: 16px; margin-top: 12px; padding-left: 5px; padding-top: 8px; padding-bottom: 8px;
+                      width: 100%"> <br>
+
+        <span> <b>Age:</b></span> <br>
+        <input type="radio" name="age_user"> Under 13 <br>
+        <input type="radio" name="age_user">13 or older <br>
+        <br>
+
+        <!-- Phan 2 -->
+        <span style="display: inline-block; background: #64f540; border-radius: 100%; font-size: 20px;
+              color: white; padding: 8px 15px 8px 14px; margin-bottom: 16px; font-weight: bold">2</span>
+        <span style="font-size: 20px; font-weight: bold">Your profile</span> <br>
+
+        <span style="font-weight: bold">Biography</span>
+        <textarea id="bio" placeholder="Input your biography" cols="70" rows="5" style="margin-bottom: 16px; margin-top: 12px"></textarea>
+        <br>
+        <br>
+
+        <span style="font-weight: bold">Job Role:</span>
+        <select name="job" id="jobid">
+            <optgroup label="WEB">
+                <option value="frontend_developer">Front-End Developer</option>
+                <option value="php_developer">PHP Developer</option>
+                <option value="wordpress_developer">Wordpress Developer</option>
+                <option value="rails_developer">Rails Developer</option>
+                <option value="python_developer">Python Developer</option>
+                <option value="web_designer">Web Designer</option>
+            </optgroup>
+            <optgroup label="Mobile">
+                <option value="android_developer">Android Developer</option>
+                <option value="ios_developer">iOS Developer</option>
+                <option value="mobile_designer">Mobile Designer</option>
+            </optgroup>
+            <optgroup label="Business">
+                <option value="business_owner">Business Owner</option>
+                <option value="freelancer">Freelancer</option>
+            </optgroup>
+            <optgroup label="Other">
+                <option value="other">Other</option>
+            </optgroup>
+
+        </select>
+        <br>
+        <br>
+
+        <span style="font-weight: bold">Interests:</span><br>
+        <input type="checkbox" value="test1" name="checkInterest">Developer <br>
+        <input type="checkbox" value="test2" name="checkInterest">Design <br>
+        <input type="checkbox" value="test3" name="checkInterest">Business <br>
+        <br>
+
+        <input type="submit" value="Sign Up Now" style="width: 100%; background: #64f540; border-radius: 26px; color: white;
+               font-size: 26px; padding: 12px">
+    </form>
+
+
+</body>
+</html>
