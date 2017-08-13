@@ -1,0 +1,93 @@
+#container {
+    margin: 0 auto;
+    width: 500px;
+    height: 600px;
+    background: #befff0;
+}
+
+.tab {
+    display: inline-block;
+    padding: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+    margin: 2px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#dangki {
+    background: #ecc80d;
+}
+
+
+#dangnhap {
+    background: #a3a3a3;
+}
+
+#div_dang_ki {
+    width: 500px;
+    height: auto;
+    /*background: yellow;*/
+}
+
+#div_dang_nhap {
+    width: 500px;
+    height: auto;
+    /*background: red;*/
+    display: none;
+}
+
+.formTitle {
+    text-align: center;
+}
+
+hr {
+    width: 100%;
+}
+
+.formTable {
+    margin: 40px;
+}
+
+.inputText {
+    padding: 3px;
+    margin: 3px;
+}
+
+.sex, .job {
+    margin: 3px;
+    margin-bottom: 10px;
+}
+
+#submit_DangKi, #button_DangNhap {
+    text-align: center;
+    padding:8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    background: #ff0;
+}
+
+#submit_DangKi:hover, #button_DangNhap:hover{
+    background: #f00;
+    cursor: pointer;
+}
+
+#buttonSubmit, #buttonDangNhap {
+    text-align: center;
+    padding:15px;
+
+}
+
+#pThongBao, #pStatusDangNhap {
+    display: none;
+    padding: 20px;
+    font-weight: bold;
+    color: red;
+    margin: 30px;
+    background: yellow;
+}
