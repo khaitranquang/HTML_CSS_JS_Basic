@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About me</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link href="style/css3.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="Home" data-spy="scroll" data-target=".navbar" >
+    <!-- Menu -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#Home">LoGo</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">About me</a> </li>
+                    <li><a href="#quote">Quote</a> </li>
+                    <li><a href="#experience">Experience</a> </li>
+                    <li><a href="#project">Projects</a> </li>
+                    <li><a href="#skills">Skills</a> </li>
+                    <li><a href="#contact">Contact me</a> </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+        <h1>TRAN QUANG KHAI</h1>
+        <p>Student at Hanoi University Of Science And Technology</p>
+        <form class="form-inline">
+            <input type="email" class="form-control" size="50" placeholder="Enter your email to follow me..." required>
+            <button type="button" class="btn btn-danger">Register</button>
+        </form>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="container-fluid" id="about">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2> About me</h2>
+                <h4>Tran Quang Khai - CNTT2.1 - K60 - HUST</h4>
+                <p>Date of birth: 08 - 07 - 1997</p>
+                <p>Sex: Male</p>
+                <p>National: VietNam</p>
+                <button class="btn btn-default btn-lg">Contact me</button>
+            </div>
+            <div class="col-sm-4">
+                <img src="image/kazz.jpg" class="logo" style="border: solid 1px">
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container-fluid bg-grey" id="quote">
+        <div class="row">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-globe logo slideanim"></span>
+            </div>
+
+            <div class="col-sm-8">
+                <h2>Quote</h2>
+                <p>Experience is the name everyone gives to their mistakes. (Oscar Wilde)</p>
+                <p>It works on my machine :))</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Container (Experience Section) -->
+    <div id="experience" class="container-fluid text-center">
+        <h2>Experience</h2>
+        <h4>Some language what I learned. But, it's basic :((</h4>
+
+        <div class="row slideanim">
+            <div class="col-sm-4">
+                <img src="image/c.png" class=" language-logo">
+                <h4>C/C++ Basic</h4>
+            </div>
+            <div class="col-sm-4">
+                <img src="image/java.png" class=" language-logo">
+                <h4>Java with IDE: Eclipse</h4>
+            </div>
+            <div class="col-sm-4">
+                <img src="image/android.png" class=" language-logo">
+                <h4>Android Basic with IDE: Android Studio</h4>
+            </div>
+        </div>
+
+        <div class="row slideanim">
+            <div class="col-sm-4">
+                <img src="image/html-css-js.jpg" class=" language-logo">
+                <h4>Web Front-End Basic with IDE: WebStorm</h4>
+            </div>
+            <div class="col-sm-4">
+                <img src="image/jquery.png" class=" language-logo">
+                <h4>JQuery Framework</h4>
+            </div>
+            <div class="col-sm-4">
+                <img src="image/bootstrap.png" class=" language-logo">
+                <h4>Bootstrap Framework</h4>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Container (Projects Section) -->
+    <div id="project" class="container-fluid text-center bg-grey">
+        <h2>Some Projects</h2>
+        <h4>This is some my projects</h4>
+        <div class="row slideanim text-center" style="margin-top: 40px">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="image/jsSnake.png" alt="jsSnake" width="400" height="300">
+                    <p><strong>Project 1</strong></p>
+                    <p>Game Snake with BFS</p>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="image/calculator.png" alt="Calculator" width="400" height="300">
+                    <p><strong>Project 2</strong></p>
+                    <p>Calculator by Java</p>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="image/chatbox.png" alt="ChatBox" width="400" height="300">
+                    <p><strong>Project 3</strong></p>
+                    <p>Chatbox with Java Socket</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide -->
+        <h2 id="skills">My Skills</h2>
+        <div id="myCarousel" class="carousel slide text-center" data-ripe="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#muCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#muCarousel" data-slide-to="0"></li>
+                <li data-target="#muCarousel" data-slide-to="0"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <h4>English skills: Intermediate level</h4>
+                    <h4>Having ability of reading and understand academic documents in English</h4>
+                </div>
+
+                <div class="item">
+                    <h4>Have some experience with Eclipse IDE, Android Studio, Web Storm IDE, SublimeText Editor</h4>
+                    <h4>Using well</h4>
+                </div>
+
+                <div class="item">
+                    <h4>Teamwork Skill, Self - Studying, Researching</h4>
+                    <h4>Eager to learn new things and quickly adapt to new environment</h4>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="container-fluid" id="contact">
+        <h2 class="text-center">Contact me</h2>
+        <div class="row">
+            <div class="col-sm-5">
+                <p>Contact me: </p>
+                <p><span class="glyphicon glyphicon-map-marker"></span>  Hanoi, VietNam</p>
+                <p><span class="glyphicon glyphicon-phone"></span>  0987.654.321</p>
+                <p><span class="glyphicon glyphicon-envelope"></span>  khai.tranquang.8797@gmail.com</p>
+            </div>
+
+            <div class="col-sm-7 slideanim">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name">
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email">
+                    </div>
+                </div>
+
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comments"></textarea>
+
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-right" type="submit">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="googleMap" style="height: 400px; width: 100%;">
+
+    </div>
+
+    <!-- Add Google Map -->
+    <script>
+        function initMap() {
+            var uluru = {lat: 21.0070854, lng: 105.8428817};
+            var map = new google.maps.Map(document.getElementById("googleMap"), {
+                zoom: 4,
+                center: uluru,
+                zoom: 12
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbkOBi-458tGiaTCpyZmddDXrPv6klvBc&callback=initMap">
+    </script>
+
+    <footer class="container-fluid text-center">
+        <a href="#Home" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>Tran Quang Khai - khai.traquang.8797@gmail.com</p>
+    </footer>
+
+</body>
+</html>
